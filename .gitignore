@@ -1,13 +1,23 @@
-# Bloquer les fichiers d'activations et gros datasets
+# --- Datasets et fichiers lourds ---
+# Bloque le fichier de 310 Mo et tous les autres datasets CSV
 *.csv
-*.pt
+Fraude Detection/creditcard.csv
+Human Activity Recognition with Smartphon/*.csv
+
+# --- Sauvegardes de modèles et poids de réseaux ---
+# Bloque fraud_ann_model.pth, har_ann_model.pth et futurs modèles
 *.pth
+*.pt
 *.pkl
 *.joblib
 
-# Caches et environnements
+# --- Caches et Environnements ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
 venv/
 env/
-__pycache__/
-.ipynb_checkpoints/
+
+# --- Fichiers Système ---
 .DS_Store
+Thumbs.db
