@@ -1,0 +1,21 @@
+# Calcul scientifique et manipulation de données
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Deep Learning (PyTorch)
+torch>=1.10.0
+# torchvision>=0.11.0  # Décommente si tu utilises des modules vision plus tard
+
+# Machine Learning classique et Graphes
+scikit-learn>=1.0.2
+
+# Parallélisation pour le Grid Search
+joblib>=1.1.0
+
+# Visualisation des données
+matplotlib>=3.5.0
+seaborn>=0.11.2
+
+# Utilitaires (Optionnel mais recommandé pour les notebooks)
+jupyter>=1.0.0
+tqdm>=4.62.0

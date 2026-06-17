@@ -1,0 +1,23 @@
+[
+    {
+        "nom": "Expert Eps 1.0",
+        "K": 8,
+        "k_nn": 2,
+        "gamma": 0.01,
+        "nu": 0.005
+    },
+    {
+        "nom": "Expert Eps 1.9",
+        "K": 8,
+        "k_nn": 2,
+        "gamma": 0.01,
+        "nu": 0.005
+    },
+    {
+        "nom": "Expert Eps 3.0",
+        "K": 8,
+        "k_nn": 2,
+        "gamma": 0.01,
+        "nu": 0.005
+    }
+]

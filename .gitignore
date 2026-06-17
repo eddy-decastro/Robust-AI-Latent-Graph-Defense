@@ -1,0 +1,13 @@
+# Bloquer les fichiers d'activations et gros datasets
+*.csv
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# Caches et environnements
+venv/
+env/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
